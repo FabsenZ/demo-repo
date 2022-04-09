@@ -1,7 +1,6 @@
 import fabs_module
 import yfinance
 
-
 def testfunction():
     return 2+2
 
