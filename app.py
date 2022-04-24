@@ -1,4 +1,4 @@
-import fabs_module
+import fabs_module.processes
 import yfinance
 
 def testfunction():
@@ -7,4 +7,5 @@ def testfunction():
 if __name__=="__main__":
     testvariable = testfunction()
     print(testvariable)
-    print("CODE HAT FUNKTIONIERT")
+    fabs_module.processes.get_ticker_data()
+    
